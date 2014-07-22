@@ -1,0 +1,23 @@
+---
+abstract: 'Perl extension to grab entries and lists of entries from eksisozluk (eksisozluk.com).'
+author:
+  - 'Kivanc Yazan <k@kyzn.org>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.141170'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: WWW-Eksisozluk
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  DateTime: '1.1'
+  LWP::UserAgent: '3.1'
+version: '0.06'
