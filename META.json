@@ -33,10 +33,11 @@
       "runtime" : {
          "requires" : {
             "DateTime" : "1.1",
+            "LWP::Protocol::https" : "6.04",
             "LWP::UserAgent" : "3.1"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.06"
+   "version" : "0.07"
 }

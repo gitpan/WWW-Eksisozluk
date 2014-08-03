@@ -19,5 +19,6 @@ no_index:
     - inc
 requires:
   DateTime: '1.1'
+  LWP::Protocol::https: '6.04'
   LWP::UserAgent: '3.1'
-version: '0.06'
+version: '0.07'

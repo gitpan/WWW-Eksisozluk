@@ -1,4 +1,4 @@
-WWW::Eksisozluk version 0.06
+WWW::Eksisozluk version 0.07
 ============================
 
 This module provides a simple command line interface for eksisozluk,
@@ -35,6 +35,7 @@ Ideally, you should call these methods from an object. This will return a hash w
 	'date_print' # is the human readable date that can be used to print.
 
 	'author' # is the username who wrote the entry.
+	'author_link' # is the link of the author.
 	'body_raw' # is the raw entry, as downloaded from eksisozluk directly.
 	'body' # is the edited entry, several fixes is applied to the raw.
 	'fav_count' # is the number that shows the time that entry is marked as favourite.
@@ -54,15 +55,10 @@ DEPENDENCIES
 This module requires these other modules and libraries:
 
   LWP::UserAgent
+  LWP::Protocol::https
   DateTime
 
 ExtUtils::MakeMaker might also be required to run the Makefile.pl.
-
-TODO
-
-More tests are to be implemented.
-Tweets in entries can be embed.
-Referred entries can be embed.
 
 COPYRIGHT AND LICENCE
 
