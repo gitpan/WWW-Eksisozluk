@@ -4,7 +4,7 @@
       "Kivanc Yazan <k@kyzn.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.141170",
+   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.133380",
    "license" : [
       "unknown"
    ],
@@ -33,11 +33,13 @@
       "runtime" : {
          "requires" : {
             "DateTime" : "1.1",
-            "LWP::Protocol::https" : "6.04",
-            "LWP::UserAgent" : "3.1"
+            "LWP::Protocol::https" : "6.06",
+            "LWP::UserAgent" : "6.06",
+            "Mozilla::CA" : "20130114",
+            "experimental" : "0.013"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.07"
+   "version" : "0.08"
 }
