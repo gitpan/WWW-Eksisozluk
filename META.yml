@@ -23,4 +23,5 @@ requires:
   LWP::UserAgent: 6.06
   Mozilla::CA: 20130114
   experimental: 0.013
-version: 0.08
+  utf8::all: 0.015
+version: 0.09
